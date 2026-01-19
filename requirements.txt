@@ -1,0 +1,11 @@
+torch
+transformers
+peft
+bitsandbytes
+accelerate
+datasets
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+tqdm

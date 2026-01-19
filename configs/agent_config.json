@@ -1,0 +1,46 @@
+{
+    "model": {
+        "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+        "adapter_path": "models/lora-adapter",
+        "max_length": 512
+    },
+    "training": {
+        "learning_rate": 2e-4,
+        "num_epochs": 3,
+        "batch_size": 4,
+        "gradient_accumulation_steps": 2,
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+        ]
+    },
+    "tools": [
+        {
+            "name": "add_task",
+            "description": "Adds a new task to the task list",
+            "parameters": {
+                "title": "string - task description",
+                "due_date": "string - due date in YYYY-MM-DD format"
+            }
+        },
+        {
+            "name": "list_tasks",
+            "description": "Returns all pending tasks",
+            "parameters": {}
+        },
+        {
+            "name": "summarize_tasks",
+            "description": "Provides a natural language summary of all tasks",
+            "parameters": {}
+        }
+    ],
+    "api": {
+        "host": "0.0.0.0",
+        "port": 8000
+    }
+}

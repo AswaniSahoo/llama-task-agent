@@ -1,0 +1,1686 @@
+[
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Don't forget to schedule appointment today",
+    "analysis": "User wants to create a new task 'schedule appointment' with due date today.",
+    "action": "add_task(title=\"Schedule appointment\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "Give me my task list",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "What time is it?",
+    "final": "I don't have access to the current time, but I can help you manage your tasks."
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Mark task as complete",
+    "final": "I don't have the ability to mark tasks as complete yet. I can add, list, and summarize tasks."
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "What can you do?",
+    "final": "I can help you manage tasks: add new tasks, list your tasks, and provide summaries. Just let me know what you need!"
+  },
+  {
+    "instruction": "Who are you?",
+    "final": "I'm a task management assistant. I can help you organize and track your tasks efficiently."
+  },
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Mark task as complete",
+    "final": "I don't have the ability to mark tasks as complete yet. I can add, list, and summarize tasks."
+  },
+  {
+    "instruction": "What are my tasks?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Schedule fix the bug this weekend",
+    "analysis": "User wants to create a new task 'fix the bug' with due date this weekend.",
+    "action": "add_task(title=\"Fix the bug\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Add a task to update resume tomorrow",
+    "analysis": "User wants to create a new task 'update resume' with due date tomorrow.",
+    "action": "add_task(title=\"Update resume\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "I have to practice guitar today",
+    "analysis": "User wants to create a new task 'practice guitar' with due date today.",
+    "action": "add_task(title=\"Practice guitar\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Schedule prepare presentation by Friday",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date by Friday.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "Help",
+    "final": "I can add tasks, list your tasks, and provide summaries. What would you like to do?"
+  },
+  {
+    "instruction": "I need to finish project report today",
+    "analysis": "User wants to create a new task 'finish project report' with due date today.",
+    "action": "add_task(title=\"Finish project report\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "What's the weather?",
+    "final": "I don't have weather information, but I can help you manage your tasks."
+  },
+  {
+    "instruction": "Add a task to organize desk today",
+    "analysis": "User wants to create a new task 'organize desk' with due date today.",
+    "action": "add_task(title=\"Organize desk\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Show todo items",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "Schedule team meeting today",
+    "analysis": "User wants to create a new task 'team meeting' with due date today.",
+    "action": "add_task(title=\"Team meeting\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Task overview",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "I have to renew subscription in 3 days",
+    "analysis": "User wants to create a new task 'renew subscription' with due date in 3 days.",
+    "action": "add_task(title=\"Renew subscription\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "How are you?",
+    "final": "I'm functioning well, thank you! How can I assist you with your tasks?"
+  },
+  {
+    "instruction": "What's on my todo list?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Goodbye",
+    "final": "Goodbye! Have a productive day!"
+  },
+  {
+    "instruction": "How are you?",
+    "final": "I'm functioning well, thank you! How can I assist you with your tasks?"
+  },
+  {
+    "instruction": "Show todo items",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Show all tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Add walk the dog to my list by Friday",
+    "analysis": "User wants to create a new task 'walk the dog' with due date by Friday.",
+    "action": "add_task(title=\"Walk the dog\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Task overview",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Schedule study for exam by Friday",
+    "analysis": "User wants to create a new task 'study for exam' with due date by Friday.",
+    "action": "add_task(title=\"Study for exam\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "What's on my todo list?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "What tasks do I have?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "I need to update resume by Friday",
+    "analysis": "User wants to create a new task 'update resume' with due date by Friday.",
+    "action": "add_task(title=\"Update resume\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Mark task as complete",
+    "final": "I don't have the ability to mark tasks as complete yet. I can add, list, and summarize tasks."
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "I need to do something tomorrow",
+    "analysis": "User wants to add a task but didn't specify what. This is ambiguous.",
+    "final": "Could you please specify what task you'd like to add for tomorrow?"
+  },
+  {
+    "instruction": "Add a task to clean the house in 3 days",
+    "analysis": "User wants to create a new task 'clean the house' with due date in 3 days.",
+    "action": "add_task(title=\"Clean the house\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "Hello",
+    "final": "Hello! How can I help you manage your tasks today?"
+  },
+  {
+    "instruction": "Hello",
+    "final": "Hello! How can I help you manage your tasks today?"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "I need to update resume tomorrow",
+    "analysis": "User wants to create a new task 'update resume' with due date tomorrow.",
+    "action": "add_task(title=\"Update resume\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Put write documentation on my todo list tomorrow",
+    "analysis": "User wants to create a new task 'write documentation' with due date tomorrow.",
+    "action": "add_task(title=\"Write documentation\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Give me my task list",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Bye",
+    "final": "Bye! Come back anytime you need task management help."
+  },
+  {
+    "instruction": "What's the status of my tasks?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "I have to water plants today",
+    "analysis": "User wants to create a new task 'water plants' with due date today.",
+    "action": "add_task(title=\"Water plants\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "Summarize my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Schedule send email tomorrow",
+    "analysis": "User wants to create a new task 'send email' with due date tomorrow.",
+    "action": "add_task(title=\"Send email\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Add read a book to my list today",
+    "analysis": "User wants to create a new task 'read a book' with due date today.",
+    "action": "add_task(title=\"Read a book\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Put walk the dog on my todo list by Friday",
+    "analysis": "User wants to create a new task 'walk the dog' with due date by Friday.",
+    "action": "add_task(title=\"Walk the dog\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "Give me an overview of my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "How many tasks do I have?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Display my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "I need to code review this weekend",
+    "analysis": "User wants to create a new task 'code review' with due date this weekend.",
+    "action": "add_task(title=\"Code review\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Schedule practice guitar today",
+    "analysis": "User wants to create a new task 'practice guitar' with due date today.",
+    "action": "add_task(title=\"Practice guitar\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Task overview",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Task overview",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Remind me to backup files today",
+    "analysis": "User wants to create a new task 'backup files' with due date today.",
+    "action": "add_task(title=\"Backup files\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Create a task for schedule appointment this weekend",
+    "analysis": "User wants to create a new task 'schedule appointment' with due date this weekend.",
+    "action": "add_task(title=\"Schedule appointment\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "What's on my todo list?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Don't forget to write documentation next week",
+    "analysis": "User wants to create a new task 'write documentation' with due date next week.",
+    "action": "add_task(title=\"Write documentation\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "I should team meeting in 3 days",
+    "analysis": "User wants to create a new task 'team meeting' with due date in 3 days.",
+    "action": "add_task(title=\"Team meeting\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Help",
+    "final": "I can add tasks, list your tasks, and provide summaries. What would you like to do?"
+  },
+  {
+    "instruction": "Hey",
+    "final": "Hey! Ready to help you organize your tasks."
+  },
+  {
+    "instruction": "Hi there",
+    "final": "Hi! I'm here to help you with your tasks. What would you like to do?"
+  },
+  {
+    "instruction": "Put pay electricity bill on my todo list tomorrow",
+    "analysis": "User wants to create a new task 'pay electricity bill' with due date tomorrow.",
+    "action": "add_task(title=\"Pay electricity bill\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "List all my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "I need to schedule appointment this weekend",
+    "analysis": "User wants to create a new task 'schedule appointment' with due date this weekend.",
+    "action": "add_task(title=\"Schedule appointment\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Add a task to practice guitar today",
+    "analysis": "User wants to create a new task 'practice guitar' with due date today.",
+    "action": "add_task(title=\"Practice guitar\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Give me an overview of my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "I need to schedule appointment this weekend",
+    "analysis": "User wants to create a new task 'schedule appointment' with due date this weekend.",
+    "action": "add_task(title=\"Schedule appointment\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What's on my todo list?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Hey",
+    "final": "Hey! Ready to help you organize your tasks."
+  },
+  {
+    "instruction": "I have to study for exam this weekend",
+    "analysis": "User wants to create a new task 'study for exam' with due date this weekend.",
+    "action": "add_task(title=\"Study for exam\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Remind me to reply to messages next Monday",
+    "analysis": "User wants to create a new task 'reply to messages' with due date next Monday.",
+    "action": "add_task(title=\"Reply to messages\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Remind me to plan vacation by Friday",
+    "analysis": "User wants to create a new task 'plan vacation' with due date by Friday.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "Goodbye",
+    "final": "Goodbye! Have a productive day!"
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "List tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Goodbye",
+    "final": "Goodbye! Have a productive day!"
+  },
+  {
+    "instruction": "Quick summary of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "How many tasks do I have?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Hey",
+    "final": "Hey! Ready to help you organize your tasks."
+  },
+  {
+    "instruction": "Don't forget to code review next Monday",
+    "analysis": "User wants to create a new task 'code review' with due date next Monday.",
+    "action": "add_task(title=\"Code review\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "How many tasks do I have?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Show my pending tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "I need to pay electricity bill next Monday",
+    "analysis": "User wants to create a new task 'pay electricity bill' with due date next Monday.",
+    "action": "add_task(title=\"Pay electricity bill\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "I need to practice guitar tomorrow",
+    "analysis": "User wants to create a new task 'practice guitar' with due date tomorrow.",
+    "action": "add_task(title=\"Practice guitar\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "List all my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Summarize my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Don't forget to code review today",
+    "analysis": "User wants to create a new task 'code review' with due date today.",
+    "action": "add_task(title=\"Code review\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Hi there",
+    "final": "Hi! I'm here to help you with your tasks. What would you like to do?"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "Give me a summary",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Thank you",
+    "final": "Happy to help! Feel free to ask if you need anything."
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What's on my todo list?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Put plan vacation on my todo list this weekend",
+    "analysis": "User wants to create a new task 'plan vacation' with due date this weekend.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Schedule renew subscription by Friday",
+    "analysis": "User wants to create a new task 'renew subscription' with due date by Friday.",
+    "action": "add_task(title=\"Renew subscription\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Schedule schedule appointment today",
+    "analysis": "User wants to create a new task 'schedule appointment' with due date today.",
+    "action": "add_task(title=\"Schedule appointment\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Give me a summary",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "Add a task to update resume by Friday",
+    "analysis": "User wants to create a new task 'update resume' with due date by Friday.",
+    "action": "add_task(title=\"Update resume\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "What's the status of my tasks?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Put practice guitar on my todo list in 3 days",
+    "analysis": "User wants to create a new task 'practice guitar' with due date in 3 days.",
+    "action": "add_task(title=\"Practice guitar\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "How's my todo list looking?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Add prepare presentation to my list next Monday",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date next Monday.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "I need to study for exam by Friday",
+    "analysis": "User wants to create a new task 'study for exam' with due date by Friday.",
+    "action": "add_task(title=\"Study for exam\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Create a task for backup files next Monday",
+    "analysis": "User wants to create a new task 'backup files' with due date next Monday.",
+    "action": "add_task(title=\"Backup files\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Schedule team meeting next Monday",
+    "analysis": "User wants to create a new task 'team meeting' with due date next Monday.",
+    "action": "add_task(title=\"Team meeting\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "I need to clean the house by Friday",
+    "analysis": "User wants to create a new task 'clean the house' with due date by Friday.",
+    "action": "add_task(title=\"Clean the house\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Remind me to plan vacation this weekend",
+    "analysis": "User wants to create a new task 'plan vacation' with due date this weekend.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "Add a task to walk the dog next Monday",
+    "analysis": "User wants to create a new task 'walk the dog' with due date next Monday.",
+    "action": "add_task(title=\"Walk the dog\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "I have to attend webinar today",
+    "analysis": "User wants to create a new task 'attend webinar' with due date today.",
+    "action": "add_task(title=\"Attend webinar\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "I have to plan vacation in 3 days",
+    "analysis": "User wants to create a new task 'plan vacation' with due date in 3 days.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "Hello",
+    "final": "Hello! How can I help you manage your tasks today?"
+  },
+  {
+    "instruction": "What's the status of my tasks?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What's the status of my tasks?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "I have to fix the bug in 3 days",
+    "analysis": "User wants to create a new task 'fix the bug' with due date in 3 days.",
+    "action": "add_task(title=\"Fix the bug\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "I need to do something tomorrow",
+    "analysis": "User wants to add a task but didn't specify what. This is ambiguous.",
+    "final": "Could you please specify what task you'd like to add for tomorrow?"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "I need to buy groceries next Monday",
+    "analysis": "User wants to create a new task 'buy groceries' with due date next Monday.",
+    "action": "add_task(title=\"Buy groceries\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Quick summary of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Add study for exam to my list next Monday",
+    "analysis": "User wants to create a new task 'study for exam' with due date next Monday.",
+    "action": "add_task(title=\"Study for exam\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Bye",
+    "final": "Bye! Come back anytime you need task management help."
+  },
+  {
+    "instruction": "Remind me to organize desk by Friday",
+    "analysis": "User wants to create a new task 'organize desk' with due date by Friday.",
+    "action": "add_task(title=\"Organize desk\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Help",
+    "final": "I can add tasks, list your tasks, and provide summaries. What would you like to do?"
+  },
+  {
+    "instruction": "Summarize my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Don't forget to study for exam by Friday",
+    "analysis": "User wants to create a new task 'study for exam' with due date by Friday.",
+    "action": "add_task(title=\"Study for exam\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "Add a task to team meeting this weekend",
+    "analysis": "User wants to create a new task 'team meeting' with due date this weekend.",
+    "action": "add_task(title=\"Team meeting\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Add a task to reply to messages next Monday",
+    "analysis": "User wants to create a new task 'reply to messages' with due date next Monday.",
+    "action": "add_task(title=\"Reply to messages\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "I have to plan vacation tomorrow",
+    "analysis": "User wants to create a new task 'plan vacation' with due date tomorrow.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Create a task for book flight tickets this weekend",
+    "analysis": "User wants to create a new task 'book flight tickets' with due date this weekend.",
+    "action": "add_task(title=\"Book flight tickets\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Hi there",
+    "final": "Hi! I'm here to help you with your tasks. What would you like to do?"
+  },
+  {
+    "instruction": "Don't forget to order supplies tomorrow",
+    "analysis": "User wants to create a new task 'order supplies' with due date tomorrow.",
+    "action": "add_task(title=\"Order supplies\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Hey",
+    "final": "Hey! Ready to help you organize your tasks."
+  },
+  {
+    "instruction": "I should code review this weekend",
+    "analysis": "User wants to create a new task 'code review' with due date this weekend.",
+    "action": "add_task(title=\"Code review\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Remind me to read a book next week",
+    "analysis": "User wants to create a new task 'read a book' with due date next week.",
+    "action": "add_task(title=\"Read a book\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Mark task as complete",
+    "final": "I don't have the ability to mark tasks as complete yet. I can add, list, and summarize tasks."
+  },
+  {
+    "instruction": "I need to call dentist next Monday",
+    "analysis": "User wants to create a new task 'call dentist' with due date next Monday.",
+    "action": "add_task(title=\"Call dentist\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Task overview",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What's the status of my tasks?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Who are you?",
+    "final": "I'm a task management assistant. I can help you organize and track your tasks efficiently."
+  },
+  {
+    "instruction": "Add a task to backup files next Monday",
+    "analysis": "User wants to create a new task 'backup files' with due date next Monday.",
+    "action": "add_task(title=\"Backup files\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "Create a task for backup files by Friday",
+    "analysis": "User wants to create a new task 'backup files' with due date by Friday.",
+    "action": "add_task(title=\"Backup files\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Who are you?",
+    "final": "I'm a task management assistant. I can help you organize and track your tasks efficiently."
+  },
+  {
+    "instruction": "Put organize desk on my todo list tomorrow",
+    "analysis": "User wants to create a new task 'organize desk' with due date tomorrow.",
+    "action": "add_task(title=\"Organize desk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "Don't forget to order supplies next week",
+    "analysis": "User wants to create a new task 'order supplies' with due date next week.",
+    "action": "add_task(title=\"Order supplies\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Schedule order supplies by Friday",
+    "analysis": "User wants to create a new task 'order supplies' with due date by Friday.",
+    "action": "add_task(title=\"Order supplies\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Put plan vacation on my todo list today",
+    "analysis": "User wants to create a new task 'plan vacation' with due date today.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Mark task as complete",
+    "final": "I don't have the ability to mark tasks as complete yet. I can add, list, and summarize tasks."
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "I should water plants today",
+    "analysis": "User wants to create a new task 'water plants' with due date today.",
+    "action": "add_task(title=\"Water plants\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Can you show me what I have to do?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Put read a book on my todo list in 3 days",
+    "analysis": "User wants to create a new task 'read a book' with due date in 3 days.",
+    "action": "add_task(title=\"Read a book\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "Put prepare presentation on my todo list by Friday",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date by Friday.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "What are my tasks?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Create a task for walk the dog today",
+    "analysis": "User wants to create a new task 'walk the dog' with due date today.",
+    "action": "add_task(title=\"Walk the dog\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Schedule plan vacation today",
+    "analysis": "User wants to create a new task 'plan vacation' with due date today.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "What's the status of my tasks?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Schedule call dentist this weekend",
+    "analysis": "User wants to create a new task 'call dentist' with due date this weekend.",
+    "action": "add_task(title=\"Call dentist\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Can you show me what I have to do?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "What can you do?",
+    "final": "I can help you manage tasks: add new tasks, list your tasks, and provide summaries. Just let me know what you need!"
+  },
+  {
+    "instruction": "Mark task as complete",
+    "final": "I don't have the ability to mark tasks as complete yet. I can add, list, and summarize tasks."
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Put buy groceries on my todo list today",
+    "analysis": "User wants to create a new task 'buy groceries' with due date today.",
+    "action": "add_task(title=\"Buy groceries\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Schedule team meeting next week",
+    "analysis": "User wants to create a new task 'team meeting' with due date next week.",
+    "action": "add_task(title=\"Team meeting\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Add attend webinar to my list today",
+    "analysis": "User wants to create a new task 'attend webinar' with due date today.",
+    "action": "add_task(title=\"Attend webinar\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "What's my task status?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Thank you",
+    "final": "Happy to help! Feel free to ask if you need anything."
+  },
+  {
+    "instruction": "Add backup files to my list this weekend",
+    "analysis": "User wants to create a new task 'backup files' with due date this weekend.",
+    "action": "add_task(title=\"Backup files\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "I need to do something tomorrow",
+    "analysis": "User wants to add a task but didn't specify what. This is ambiguous.",
+    "final": "Could you please specify what task you'd like to add for tomorrow?"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "Summarize what I need to do",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Summarize my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What tasks do I have?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Mark task as complete",
+    "final": "I don't have the ability to mark tasks as complete yet. I can add, list, and summarize tasks."
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Thank you",
+    "final": "Happy to help! Feel free to ask if you need anything."
+  },
+  {
+    "instruction": "Give me an overview of my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Quick summary of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Don't forget to renew subscription today",
+    "analysis": "User wants to create a new task 'renew subscription' with due date today.",
+    "action": "add_task(title=\"Renew subscription\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Who are you?",
+    "final": "I'm a task management assistant. I can help you organize and track your tasks efficiently."
+  },
+  {
+    "instruction": "Add walk the dog to my list today",
+    "analysis": "User wants to create a new task 'walk the dog' with due date today.",
+    "action": "add_task(title=\"Walk the dog\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Help",
+    "final": "I can add tasks, list your tasks, and provide summaries. What would you like to do?"
+  },
+  {
+    "instruction": "I need to plan vacation tomorrow",
+    "analysis": "User wants to create a new task 'plan vacation' with due date tomorrow.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Show my pending tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Quick summary of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Quick summary of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "I need to buy groceries today",
+    "analysis": "User wants to create a new task 'buy groceries' with due date today.",
+    "action": "add_task(title=\"Buy groceries\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Show todo items",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Give me my task list",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "How many tasks do I have?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What's the status of my tasks?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Don't forget to call dentist in 3 days",
+    "analysis": "User wants to create a new task 'call dentist' with due date in 3 days.",
+    "action": "add_task(title=\"Call dentist\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "I need to clean the house next week",
+    "analysis": "User wants to create a new task 'clean the house' with due date next week.",
+    "action": "add_task(title=\"Clean the house\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Thank you",
+    "final": "Happy to help! Feel free to ask if you need anything."
+  },
+  {
+    "instruction": "Remind me to send email tomorrow",
+    "analysis": "User wants to create a new task 'send email' with due date tomorrow.",
+    "action": "add_task(title=\"Send email\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Add a task to prepare presentation tomorrow",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date tomorrow.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "I need to backup files tomorrow",
+    "analysis": "User wants to create a new task 'backup files' with due date tomorrow.",
+    "action": "add_task(title=\"Backup files\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "I need to buy groceries this weekend",
+    "analysis": "User wants to create a new task 'buy groceries' with due date this weekend.",
+    "action": "add_task(title=\"Buy groceries\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "I should water plants next week",
+    "analysis": "User wants to create a new task 'water plants' with due date next week.",
+    "action": "add_task(title=\"Water plants\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Hey",
+    "final": "Hey! Ready to help you organize your tasks."
+  },
+  {
+    "instruction": "What's my task status?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Hey",
+    "final": "Hey! Ready to help you organize your tasks."
+  },
+  {
+    "instruction": "What do I need to do?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Add a task to write documentation next Monday",
+    "analysis": "User wants to create a new task 'write documentation' with due date next Monday.",
+    "action": "add_task(title=\"Write documentation\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Don't forget to update resume next week",
+    "analysis": "User wants to create a new task 'update resume' with due date next week.",
+    "action": "add_task(title=\"Update resume\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Create a task for finish project report by Friday",
+    "analysis": "User wants to create a new task 'finish project report' with due date by Friday.",
+    "action": "add_task(title=\"Finish project report\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Schedule plan vacation in 3 days",
+    "analysis": "User wants to create a new task 'plan vacation' with due date in 3 days.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "Show todo items",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Help",
+    "final": "I can add tasks, list your tasks, and provide summaries. What would you like to do?"
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "How are you?",
+    "final": "I'm functioning well, thank you! How can I assist you with your tasks?"
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Create a task for call dentist by Friday",
+    "analysis": "User wants to create a new task 'call dentist' with due date by Friday.",
+    "action": "add_task(title=\"Call dentist\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "How many tasks do I have?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Display my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "List tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Bye",
+    "final": "Bye! Come back anytime you need task management help."
+  },
+  {
+    "instruction": "Hello",
+    "final": "Hello! How can I help you manage your tasks today?"
+  },
+  {
+    "instruction": "Give me my task list",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Show todo items",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "How's my todo list looking?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "Create a task for prepare presentation tomorrow",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date tomorrow.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "How many tasks do I have?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Give me an overview of my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What can you do?",
+    "final": "I can help you manage tasks: add new tasks, list your tasks, and provide summaries. Just let me know what you need!"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "What tasks are there?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Help",
+    "final": "I can add tasks, list your tasks, and provide summaries. What would you like to do?"
+  },
+  {
+    "instruction": "Thank you",
+    "final": "Happy to help! Feel free to ask if you need anything."
+  },
+  {
+    "instruction": "I need to buy groceries next week",
+    "analysis": "User wants to create a new task 'buy groceries' with due date next week.",
+    "action": "add_task(title=\"Buy groceries\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "How are you?",
+    "final": "I'm functioning well, thank you! How can I assist you with your tasks?"
+  },
+  {
+    "instruction": "Add pay electricity bill to my list this weekend",
+    "analysis": "User wants to create a new task 'pay electricity bill' with due date this weekend.",
+    "action": "add_task(title=\"Pay electricity bill\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Give me my task list",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Who are you?",
+    "final": "I'm a task management assistant. I can help you organize and track your tasks efficiently."
+  },
+  {
+    "instruction": "I need to prepare presentation in 3 days",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date in 3 days.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "Give me an overview of my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Thanks",
+    "final": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "instruction": "I should book flight tickets by Friday",
+    "analysis": "User wants to create a new task 'book flight tickets' with due date by Friday.",
+    "action": "add_task(title=\"Book flight tickets\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Put fix the bug on my todo list next Monday",
+    "analysis": "User wants to create a new task 'fix the bug' with due date next Monday.",
+    "action": "add_task(title=\"Fix the bug\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Summarize my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Put team meeting on my todo list this weekend",
+    "analysis": "User wants to create a new task 'team meeting' with due date this weekend.",
+    "action": "add_task(title=\"Team meeting\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Remind me to prepare presentation next Monday",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date next Monday.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Thank you",
+    "final": "Happy to help! Feel free to ask if you need anything."
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Tell me a joke",
+    "final": "I'm focused on helping with tasks, but I appreciate your humor! How can I assist you today?"
+  },
+  {
+    "instruction": "Give me an overview of my tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Create a task for pay electricity bill today",
+    "analysis": "User wants to create a new task 'pay electricity bill' with due date today.",
+    "action": "add_task(title=\"Pay electricity bill\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Hi there",
+    "final": "Hi! I'm here to help you with your tasks. What would you like to do?"
+  },
+  {
+    "instruction": "Quick summary of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Overview of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Add a task to attend webinar this weekend",
+    "analysis": "User wants to create a new task 'attend webinar' with due date this weekend.",
+    "action": "add_task(title=\"Attend webinar\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Good morning",
+    "final": "Good morning! What can I help you with today?"
+  },
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Create a task for study for exam this weekend",
+    "analysis": "User wants to create a new task 'study for exam' with due date this weekend.",
+    "action": "add_task(title=\"Study for exam\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "I have to fix the bug next week",
+    "analysis": "User wants to create a new task 'fix the bug' with due date next week.",
+    "action": "add_task(title=\"Fix the bug\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "Add gym workout to my list by Friday",
+    "analysis": "User wants to create a new task 'gym workout' with due date by Friday.",
+    "action": "add_task(title=\"Gym workout\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Don't forget to book flight tickets today",
+    "analysis": "User wants to create a new task 'book flight tickets' with due date today.",
+    "action": "add_task(title=\"Book flight tickets\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "I should finish project report next Monday",
+    "analysis": "User wants to create a new task 'finish project report' with due date next Monday.",
+    "action": "add_task(title=\"Finish project report\", due_date=\"2026-01-26\")"
+  },
+  {
+    "instruction": "I need to do something tomorrow",
+    "analysis": "User wants to add a task but didn't specify what. This is ambiguous.",
+    "final": "Could you please specify what task you'd like to add for tomorrow?"
+  },
+  {
+    "instruction": "Can you show me what I have to do?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Remind me to prepare presentation by Friday",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date by Friday.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Can you show me what I have to do?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Hello",
+    "final": "Hello! How can I help you manage your tasks today?"
+  },
+  {
+    "instruction": "What do I need to do?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Remind me to team meeting today",
+    "analysis": "User wants to create a new task 'team meeting' with due date today.",
+    "action": "add_task(title=\"Team meeting\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Add a task to call dentist this weekend",
+    "analysis": "User wants to create a new task 'call dentist' with due date this weekend.",
+    "action": "add_task(title=\"Call dentist\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Hey",
+    "final": "Hey! Ready to help you organize your tasks."
+  },
+  {
+    "instruction": "Thank you",
+    "final": "Happy to help! Feel free to ask if you need anything."
+  },
+  {
+    "instruction": "Add a task to clean the house today",
+    "analysis": "User wants to create a new task 'clean the house' with due date today.",
+    "action": "add_task(title=\"Clean the house\", due_date=\"2026-01-19\")"
+  },
+  {
+    "instruction": "Delete all tasks",
+    "final": "I don't have a delete function available. I can add tasks, list them, or summarize them."
+  },
+  {
+    "instruction": "Quick summary of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Task overview",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Show me my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "How are you?",
+    "final": "I'm functioning well, thank you! How can I assist you with your tasks?"
+  },
+  {
+    "instruction": "Hello",
+    "final": "Hello! How can I help you manage your tasks today?"
+  },
+  {
+    "instruction": "Overview of tasks",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Remind me to prepare presentation in 3 days",
+    "analysis": "User wants to create a new task 'prepare presentation' with due date in 3 days.",
+    "action": "add_task(title=\"Prepare presentation\", due_date=\"2026-01-22\")"
+  },
+  {
+    "instruction": "Show todo items",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "List all my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "I need to plan vacation tomorrow",
+    "analysis": "User wants to create a new task 'plan vacation' with due date tomorrow.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Hey",
+    "final": "Hey! Ready to help you organize your tasks."
+  },
+  {
+    "instruction": "What's my task status?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "Display my tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "How are you?",
+    "final": "I'm functioning well, thank you! How can I assist you with your tasks?"
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "Create a task for schedule appointment by Friday",
+    "analysis": "User wants to create a new task 'schedule appointment' with due date by Friday.",
+    "action": "add_task(title=\"Schedule appointment\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Task summary please",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "How's my todo list looking?",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "I have to clean the house this weekend",
+    "analysis": "User wants to create a new task 'clean the house' with due date this weekend.",
+    "action": "add_task(title=\"Clean the house\", due_date=\"2026-01-25\")"
+  },
+  {
+    "instruction": "Remind me to organize desk by Friday",
+    "analysis": "User wants to create a new task 'organize desk' with due date by Friday.",
+    "action": "add_task(title=\"Organize desk\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Hello",
+    "final": "Hello! How can I help you manage your tasks today?"
+  },
+  {
+    "instruction": "What do I need to do?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Summarize what I need to do",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What's pending?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Give me a summary",
+    "analysis": "User wants a summary of their tasks.",
+    "action": "summarize_tasks()"
+  },
+  {
+    "instruction": "What's task number 3?",
+    "analysis": "User wants to see a specific task. Listing all tasks is the closest available action.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Show my pending tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Bye",
+    "final": "Bye! Come back anytime you need task management help."
+  },
+  {
+    "instruction": "Show my pending tasks",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  },
+  {
+    "instruction": "Put plan vacation on my todo list by Friday",
+    "analysis": "User wants to create a new task 'plan vacation' with due date by Friday.",
+    "action": "add_task(title=\"Plan vacation\", due_date=\"2026-01-24\")"
+  },
+  {
+    "instruction": "Add buy milk and call mom",
+    "analysis": "User mentions multiple tasks but in a single request. Adding the first task mentioned.",
+    "action": "add_task(title=\"Buy milk\", due_date=\"2026-01-20\")"
+  },
+  {
+    "instruction": "What do I need to do?",
+    "analysis": "User is requesting a list of all tasks.",
+    "action": "list_tasks()"
+  }
+]
