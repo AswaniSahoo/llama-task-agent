@@ -1,6 +1,6 @@
 # Fine-Tuned LLaMA Task Agent
 
-**Author**: [Aswani Sahoo](https://github.com/AswaniSahoo) | [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN) | [Kaggle Demo](https://www.kaggle.com/code/aswanisahoo/kaggle-demo135c45d783)
+**Author**: [Aswani Sahoo](https://github.com/AswaniSahoo) | [LinkedIn](https://www.linkedin.com/in/aswani-sahoo/) | [Email](mailto:aswanisahoo227@gmail.com) | [Kaggle Demo](https://www.kaggle.com/code/aswanisahoo/kaggle-demo135c45d783)
 
 A production-grade implementation of a task management agent using fine-tuned LLaMA-3.1-8B with LoRA (Low-Rank Adaptation). This project demonstrates how to train language models to reliably execute tools through strict output contracts, moving beyond prompt-only approaches.
 
@@ -169,9 +169,12 @@ This strict format enables reliable parsing via regex, as the model is trained t
 
 ### Live Demo
 
-**Kaggle Notebook**: [View Live Demo](https://www.kaggle.com/code/aswanisahoo/kaggle-demo135c45d783)
+| Notebook | Description |
+|----------|-------------|
+| [Training Notebook](https://www.kaggle.com/code/aswanisahoo/train-standalone) | Full training process on T4 GPU |
+| [Demo Notebook](https://www.kaggle.com/code/aswanisahoo/kaggle-demo135c45d783) | Test the trained model live |
 
-The notebook demonstrates the fine-tuned model running on Kaggle's free T4 GPU with base vs fine-tuned comparison and live tool execution.
+Both notebooks run on Kaggle's free T4 GPU. The demo notebook shows base vs fine-tuned comparison and live tool execution.
 
 ### Sample Outputs
 
@@ -227,9 +230,13 @@ The fine-tuned model consistently demonstrates:
 |-------------------|-------------------------------|
 | ![Training](screenshots/training_progress.png) | ![Comparison](screenshots/base_vs_finetuned.png) |
 
-| Tool Execution (add_task) | Conversational Response |
-|---------------------------|-------------------------|
-| ![Add Task](screenshots/tool_execution_add.png) | ![Conversation](screenshots/conversation_response.png) |
+| Tool Execution (add_task) | Tool Execution (list/summarize) |
+|---------------------------|--------------------------------|
+| ![Add Task](screenshots/tool_execution_add.png) | ![List Tasks](screenshots/tool_execution_list.png) |
+
+| Conversational Response |
+|-------------------------|
+| ![Conversation](screenshots/conversation_response.png) |
 
 For interactive testing, run the [Kaggle demo notebook](https://www.kaggle.com/code/aswanisahoo/kaggle-demo135c45d783) yourself.
 
