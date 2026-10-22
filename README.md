@@ -208,7 +208,7 @@ Hello! I'm good, thanks for asking. How can I help you manage your tasks today?
 ### Performance Summary
 
 The fine-tuned model consistently demonstrates:
-- **100% Format Compliance**: All outputs follow the `<analysis>`, `<action>`, `<final>` structure
+- **100% Format Compliance** (36-sample synthetic eval set in `data/eval.json`; run `python training/evaluate.py` from the repo root to reproduce): All outputs follow the `<analysis>`, `<action>`, `<final>` structure
 - **Correct Tool Selection**: Accurately distinguishes between tool calls and conversational responses
 - **Robust Parsing**: Outputs reliably parsable via regex, enabling deterministic execution
 - **Edge Case Handling**: Manages ambiguous queries and multi-intent requests appropriately
@@ -222,7 +222,7 @@ The fine-tuned model consistently demonstrates:
 | Correct Tag Structure | Inconsistent | **Consistent** | - |
 | Parse Success Rate | ~70% | **100%** | +30% |
 
-> Note: Base model percentages vary across runs due to inconsistent output formatting. Fine-tuned model maintains 100% compliance across all test samples.
+> Note: Base model percentages vary across runs due to inconsistent output formatting. Fine-tuned model maintains 100% compliance across all test samples (36-sample synthetic eval set in `data/eval.json`; run `python training/evaluate.py` from the repo root to reproduce).
 
 ### Screenshots
 
@@ -289,7 +289,7 @@ This project prioritizes:
 - Aligns model behavior to specific output patterns
 - Demonstrates measurable improvement in consistency
 - Enables reliable production deployment
-- Efficient: Only trains 0.5% of parameters
+- Efficient: Only trains 0.17% of parameters (13.6M LoRA weights of 8.03B)
 
 ### Technology Stack
 
